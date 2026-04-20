@@ -67,7 +67,7 @@ The scope has two USB modes. You must use **HID mode** for SCPI/Python control.
 On the scope:
 
 ```
-Mode button → System → [F1] USB → [F2] HID
+System → [F4] Page 2 → [F1] HID
 ```
 
 The scope will reconnect. Confirm with:
@@ -83,7 +83,7 @@ ls /dev/ttyUSB*
 ### Switching back to MSC mode (file transfer)
 
 ```
-Mode button → System → [F1] USB → [F1] MSC
+System → [F4] Page 2 → [F1] MSC
 ```
 
 In MSC mode the scope mounts as a USB flash drive containing saved waveforms (CSV) and screenshots (BMP).
